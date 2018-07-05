@@ -17,7 +17,7 @@ This is a Xamarin.Forms project template, in which portable class library  is us
 
 Select `New Project > Visual C# > Cross-Platform > "Xamarin.Forms App (JXUG)(PCL)"` and `OK`
 
-![New Project]()
+![New Project](https://raw.githubusercontent.com/tafuji/XamarinFormsPCLTemplate/master/Screenshots/NewProject.png)
 
 
 # Acknowledgement
