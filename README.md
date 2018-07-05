@@ -1,44 +1,25 @@
-# XamarinFormsTemplate
+# Xamarin.Forms Project Template
 
-This is source code of newest Xamarin.Forms with PCL Xamarin.Forms core project Template made by Japan Xamarin User Group.
+This is a Xamarin.Forms project template, in which portable class library  is used as the core project. It is created by Japan Xamarin User Group.
 
 ## Specification
 
 - Xamarin.Forms 3.0.0.446417
-- PackageReference (can use only Visual Studio 2017)
+- PackageReference (can be used with only Visual Studio 2017)
 - PCL core project (profile 44)
 
-# How to get
+# How to Install
 
-### Option 1: Clone the Repository (Recommended)
+- Please download the latest version of VSIX file form release page.
+- Double click the VSIX file and install it.
 
-Clone the project on the following location directly:
+# How to Use
 
-```%USERPROFILE%\Documents\Visual Studio 2017\Templates\ProjectTemplates\Visual C#```
+Select `New Project > Visual C# > Cross-Platform > "Xamarin.Forms App (JXUG)(PCL)"` and `OK`
 
-That is, on a command prompt, you can install the template by the following commands:
+![New Project]()
 
-```
-cd "%USERPROFILE%\Documents\Visual Studio 2017\Templates\ProjectTemplates\Visual C#"
-git clone https://github.com/ytabuchi/XamarinFormsPCLTemplate.git
-```
 
-After the first installation, you can update your copy by ```git pull``` in ```XamarinFormsPCLTemplate``` directory, and you feel it's easier to update the templates than the other option.
+# Acknowledgement
 
-### Option 2: Download the ZIP
-
-- Download XamarinFormsTemplate-master.zip file from [GitHub](https://github.com/ytabuchi/XamarinFormsPCLTemplate/archive/master.zip)
-- Extract the zip file
-- Move the extracted ```XamarinFormsTemplate-master``` folder to the following location:
-```%USERPROFILE%\Documents\Visual Studio 2017\Templates\ProjectTemplates\Visual C#```
-
-Please see [blog page (in Japanese)](http://ytabuchi.hatenablog.com/entry/vs-xf-template) for how to use.
-
-# How to maintenance
-
-`MyTemplate.vstemplate` located in Root folder is a Master file that is specify each child projects.
-In each projects folder, there are `MyTemplate.vstemplate` files. They are the template setting files for each projects.
-
-If Xamarin.Forms will be updated, you can just change the version numbers of each `MyTemplate.vstemplate` files
-
-There are some macros in the template files. Please see [MSDN document](https://msdn.microsoft.com/ja-jp/library/eehb4faa.aspx) for each meaning.
+This repository is based on [ytabuchi's](https://github.com/ytabuchi) excellent work, [XamarinFormsPCLTemplate](https://github.com/ytabuchi/XamarinFormsPCLTemplate).
